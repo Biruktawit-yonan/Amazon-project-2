@@ -1,0 +1,46 @@
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login img {
+  object-fit: contain;
+  width: 200px;
+  margin-top: -30px;
+}
+.login__container {
+  width: 350px;
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 20px;
+}
+.btn__sin,
+.btn__creat,
+input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+}
+input:focus {
+  outline: 2px solid skyblue;
+}
+.btn__sin {
+  background: #f0c14b;
+  cursor: pointer;
+  border: none;
+}
+.btn__creat {
+  cursor: pointer;
+  border: none;
+}
+
+.btn__sin:hover {
+  background-color: var(--primary-shade);
+}
+.btn__creat:hover {
+  background-color: lightgray;
+}
